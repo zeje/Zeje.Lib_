@@ -1,0 +1,352 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Mail_ | </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Mail_ | ">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content">
+        
+        <div class="sidenav">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              
+              <h1 id="Zeje_Utils_Mail_" data-uid="Zeje.Utils.Mail_">Class Mail_</h1>
+              <div class="markdown level0 summary"><p>基于system.net.mail发送邮件，支持附件</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">Mail_</span></div>
+              </div>
+              <h6><strong>Namespace</strong>:Zeje.Utils</h6>
+              <h6><strong>Assembly</strong>:Zeje.Utils.dll</h6>
+              <h5 id="Zeje_Utils_Mail__syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class Mail_</code></pre>
+              </div>
+              <h3 id="methods">Methods</h3>
+              
+              
+              <h4 id="Zeje_Utils_Mail__Send_System_String_System_String_System_String_System_String_System_Collections_Generic_IList_System_String__System_Collections_Generic_IList_System_String__System_Collections_Generic_IList_System_String__System_String_System_String_System_Collections_Generic_IList_System_String__System_Text_Encoding_System_Boolean_" data-uid="Zeje.Utils.Mail_.Send(System.String,System.String,System.String,System.String,System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.String,System.String,System.Collections.Generic.IList{System.String},System.Text.Encoding,System.Boolean)">Send(String, String, String, String, IList&lt;String&gt;, IList&lt;String&gt;, IList&lt;String&gt;, String, String, IList&lt;String&gt;, Encoding, Boolean)</h4>
+              <div class="markdown level1 summary"><p>发送</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void Send(string mailFrom, string mailFromAccount, string mailFromPwd, string mailSmtpServer, IList&lt;string&gt; mailTo, IList&lt;string&gt; mailCC, IList&lt;string&gt; mailBCC, string mailTitle, string mailContent, IList&lt;string&gt; mailAttachments, Encoding encoding, bool isBodyHtml)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailFrom</em></td>
+                    <td><p>发送人姓名</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailFromAccount</em></td>
+                    <td><p>发送邮箱</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailFromPwd</em></td>
+                    <td><p>发送邮箱密码</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailSmtpServer</em></td>
+                    <td><p>SMTP服务器地址</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><em>mailTo</em></td>
+                    <td><p>接收人邮箱</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><em>mailCC</em></td>
+                    <td><p>抄送人邮箱</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><em>mailBCC</em></td>
+                    <td><p>暗抄送人邮箱</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailTitle</em></td>
+                    <td><p>邮件标题</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailContent</em></td>
+                    <td><p>邮件内容</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><em>mailAttachments</em></td>
+                    <td><p>附件路径</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Text.Encoding</span></td>
+                    <td><em>encoding</em></td>
+                    <td><p>编码</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>isBodyHtml</em></td>
+                    <td><p>是否Html格式</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="Zeje_Utils_Mail__SendHTML_System_String_System_String_System_String_System_String_System_Collections_Generic_IList_System_String__System_Collections_Generic_IList_System_String__System_Collections_Generic_IList_System_String__System_String_System_String_" data-uid="Zeje.Utils.Mail_.SendHTML(System.String,System.String,System.String,System.String,System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.String,System.String)">SendHTML(String, String, String, String, IList&lt;String&gt;, IList&lt;String&gt;, IList&lt;String&gt;, String, String)</h4>
+              <div class="markdown level1 summary"><p>发送邮件——内容为网页</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void SendHTML(string mailFrom, string mailFromAccount, string mailFromPwd, string mailSmtpServer, IList&lt;string&gt; mailTo, IList&lt;string&gt; mailCC, IList&lt;string&gt; mailBCC, string mailTitle, string mailContent)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailFrom</em></td>
+                    <td><p>发送人姓名</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailFromAccount</em></td>
+                    <td><p>发送邮箱</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailFromPwd</em></td>
+                    <td><p>发送邮箱密码</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailSmtpServer</em></td>
+                    <td><p>SMTP服务器地址</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><em>mailTo</em></td>
+                    <td><p>接收人邮箱</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><em>mailCC</em></td>
+                    <td><p>抄送人邮箱</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><em>mailBCC</em></td>
+                    <td><p>暗抄送人邮箱</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailTitle</em></td>
+                    <td><p>邮件标题</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailContent</em></td>
+                    <td><p>邮件内容</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="Zeje_Utils_Mail__SendText_System_String_System_String_System_String_System_String_System_Collections_Generic_IList_System_String__System_Collections_Generic_IList_System_String__System_Collections_Generic_IList_System_String__System_String_System_String_" data-uid="Zeje.Utils.Mail_.SendText(System.String,System.String,System.String,System.String,System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.Collections.Generic.IList{System.String},System.String,System.String)">SendText(String, String, String, String, IList&lt;String&gt;, IList&lt;String&gt;, IList&lt;String&gt;, String, String)</h4>
+              <div class="markdown level1 summary"><p>发送邮件——内容为文本</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void SendText(string mailFrom, string mailFromAccount, string mailFromPwd, string mailSmtpServer, IList&lt;string&gt; mailTo, IList&lt;string&gt; mailCC, IList&lt;string&gt; mailBCC, string mailTitle, string mailContent)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailFrom</em></td>
+                    <td><p>发送人姓名</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailFromAccount</em></td>
+                    <td><p>发送邮箱</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailFromPwd</em></td>
+                    <td><p>发送邮箱密码</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailSmtpServer</em></td>
+                    <td><p>SMTP服务器地址</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><em>mailTo</em></td>
+                    <td><p>接收人邮箱</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><em>mailCC</em></td>
+                    <td><p>抄送人邮箱</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+                    <td><em>mailBCC</em></td>
+                    <td><p>暗抄送人邮箱</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailTitle</em></td>
+                    <td><p>邮件标题</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>mailContent</em></td>
+                    <td><p>邮件内容</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright © 2015 Microsoft<br>Powered by Doc-as-Code</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
