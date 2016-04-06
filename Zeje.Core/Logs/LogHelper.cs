@@ -18,7 +18,7 @@ namespace Zeje.Core
         public static void Init()
         {
             Assembly assembly = Assembly.GetExecutingAssembly();
-            var xml = assembly.GetManifestResourceStream("Zeje.Core.Logs.Log4net.config");
+            var xml = assembly.GetManifestResourceStream("Zeje.Core.Logs.Default.config");
             log4net.Config.XmlConfigurator.Configure(xml);
         }
         /// <summary>

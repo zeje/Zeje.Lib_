@@ -72,10 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="docfx.json" />
-    <None Include="Logs\Default.config" />
-    <None Include="Logs\Log4net.config">
-      <SubType>Designer</SubType>
-    </None>
+    <EmbeddedResource Include="Logs\Default.config" />
     <None Include="packages.config" />
     <None Include="toc.yml" />
   </ItemGroup>
