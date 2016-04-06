@@ -5,13 +5,15 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Predicate_ | </title>
+    <title>Predicate_ Class | </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Predicate_ | ">
+    <meta name="title" content="Predicate_ Class | ">
+    <meta name="generator" content="docfx 1.5.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
   </head>
@@ -57,19 +59,19 @@
           <div class="col-md-10">
             <article class="content wrap" id="_content">
               
-              
+              <a href="https://github.com/zeje/Zeje.Lib_/new/master/Zeje.Core/apispec/new?filename=Zeje_Core_Predicate_.md&amp;value=---%0Auid%3A%20Zeje.Core.Predicate_%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
               <a href="https://github.com/zeje/Zeje.Lib_/blob/master/Zeje.Core/Expression/Predicate_.cs/#L22" class="btn btn-primary pull-right mobile-hide">View Source</a>
               <h1 id="Zeje_Core_Predicate_" data-uid="Zeje.Core.Predicate_">Class Predicate_</h1>
               <div class="markdown level0 summary"><p>表达式谓语扩展
-http://blog.csdn.net/leewhoee/article/details/8968023
-1、构造函数使用True时：
+<a href="http://blog.csdn.net/leewhoee/article/details/8968023">http://blog.csdn.net/leewhoee/article/details/8968023</a></p>
+<p>1、构造函数使用True时：
 （1）单个AND有效，多个AND有效，当然了True &amp;&amp; XX=XX
 （2）单个OR无效，多个OR无效：True || XX=True所以无效。
 （3）混合时：
-※(True &amp;&amp; XX) || XX1 等于 XX || XX1，有效；
-※(True || XX) &amp;&amp; XX1 等于 True &amp;&amp; XX1 等于 XX1，局部有效
-※(True || XX) || XX1 等于 True||XX1 等于 True，全部无效
-2、构造函数使用False时：和True情况一样</p>
+    ※(True &amp;&amp; XX) || XX1 等于 XX || XX1，有效；
+    ※(True || XX) &amp;&amp; XX1 等于 True &amp;&amp; XX1 等于 XX1，局部有效
+    ※(True || XX) || XX1 等于 True||XX1 等于 True，全部无效
+2、构造函数使用False时：和True情况一样 </p>
 </div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
@@ -84,7 +86,10 @@ http://blog.csdn.net/leewhoee/article/details/8968023
                 <pre><code class="lang-csharp hljs">public class Predicate_</code></pre>
               </div>
               <h3 id="methods">Methods</h3>
-              
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zeje/Zeje.Lib_/new/master/Zeje.Core/apispec/new?filename=Zeje_Core_Predicate__And__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___System_Linq_Expressions_Expression_System_Func___0_System_Boolean___.md&amp;value=---%0Auid%3A%20Zeje.Core.Predicate_.And%60%601(System.Linq.Expressions.Expression%7BSystem.Func%7B%60%600%2CSystem.Boolean%7D%7D%2CSystem.Linq.Expressions.Expression%7BSystem.Func%7B%60%600%2CSystem.Boolean%7D%7D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/zeje/Zeje.Lib_/blob/master/Zeje.Core/Expression/Predicate_.cs/#L58">View Source</a>
               </span>
@@ -132,7 +137,10 @@ http://blog.csdn.net/leewhoee/article/details/8968023
                   </tr>
                 </tbody>
               </table>
-              
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zeje/Zeje.Lib_/new/master/Zeje.Core/apispec/new?filename=Zeje_Core_Predicate__Compose__1_System_Linq_Expressions_Expression___0__System_Linq_Expressions_Expression___0__System_Func_System_Linq_Expressions_Expression_System_Linq_Expressions_Expression_System_Linq_Expressions_Expression__.md&amp;value=---%0Auid%3A%20Zeje.Core.Predicate_.Compose%60%601(System.Linq.Expressions.Expression%7B%60%600%7D%2CSystem.Linq.Expressions.Expression%7B%60%600%7D%2CSystem.Func%7BSystem.Linq.Expressions.Expression%2CSystem.Linq.Expressions.Expression%2CSystem.Linq.Expressions.Expression%7D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/zeje/Zeje.Lib_/blob/master/Zeje.Core/Expression/Predicate_.cs/#L41">View Source</a>
               </span>
@@ -185,7 +193,10 @@ http://blog.csdn.net/leewhoee/article/details/8968023
                   </tr>
                 </tbody>
               </table>
-              
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zeje/Zeje.Lib_/new/master/Zeje.Core/apispec/new?filename=Zeje_Core_Predicate__False__1.md&amp;value=---%0Auid%3A%20Zeje.Core.Predicate_.False%60%601%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/zeje/Zeje.Lib_/blob/master/Zeje.Core/Expression/Predicate_.cs/#L33">View Source</a>
               </span>
@@ -211,7 +222,10 @@ http://blog.csdn.net/leewhoee/article/details/8968023
                   </tr>
                 </tbody>
               </table>
-              
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zeje/Zeje.Lib_/new/master/Zeje.Core/apispec/new?filename=Zeje_Core_Predicate__Or__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___System_Linq_Expressions_Expression_System_Func___0_System_Boolean___.md&amp;value=---%0Auid%3A%20Zeje.Core.Predicate_.Or%60%601(System.Linq.Expressions.Expression%7BSystem.Func%7B%60%600%2CSystem.Boolean%7D%7D%2CSystem.Linq.Expressions.Expression%7BSystem.Func%7B%60%600%2CSystem.Boolean%7D%7D)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/zeje/Zeje.Lib_/blob/master/Zeje.Core/Expression/Predicate_.cs/#L68">View Source</a>
               </span>
@@ -259,7 +273,10 @@ http://blog.csdn.net/leewhoee/article/details/8968023
                   </tr>
                 </tbody>
               </table>
-              
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zeje/Zeje.Lib_/new/master/Zeje.Core/apispec/new?filename=Zeje_Core_Predicate__True__1.md&amp;value=---%0Auid%3A%20Zeje.Core.Predicate_.True%60%601%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/zeje/Zeje.Lib_/blob/master/Zeje.Core/Expression/Predicate_.cs/#L28">View Source</a>
               </span>
@@ -303,7 +320,7 @@ http://blog.csdn.net/leewhoee/article/details/8968023
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            <span>Copyright © 2015 Microsoft<br>Powered by Doc-as-Code</span>
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>docfx</strong></span>
           </div>
         </div>
       </footer>
@@ -311,6 +328,7 @@ http://blog.csdn.net/leewhoee/article/details/8968023
     
     <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
