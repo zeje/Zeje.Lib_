@@ -4777,3 +4777,56 @@ gAd[É¸ëÎy)j-†ÚÙê?ÄåIL¡?JP6z,ÒâFäˆPó∏9Cã⁄`ÖÒ‡÷¿ÇÿïŸº¶MÛÜï˙¬¨T£Vt9:≈¨~«†
 {"message":"Disposing build step BuildManagedReferenceDocument ...","date_time":"2016-03-10T16:07:09.7239928Z","message_severity":"verbose"}
 {"message":"Disposing build step FillReferenceInformation ...","date_time":"2016-03-10T16:07:09.7239928Z","message_severity":"verbose"}
 {"message":"Theme is applied.","source":"Apply Theme","date_time":"2016-03-10T16:07:09.7249952Z","message_severity":"info"}
+{"message":"Config file \"C:\\Users\\Administrator\\Source\\Repos\\Zeje.Lib_\\Zeje.Utils/docfx.json\" is used.","date_time":"2016-05-11T02:32:19.445022Z","message_severity":"verbose"}
+{"message":"Error opening project C:/Users/Administrator/Source/Repos/Zeje.Lib_/Zeje.Utils/Zeje.Utils.csproj: Êú™ËÉΩÂä†ËΩΩÊñá‰ª∂ÊàñÁ®ãÂ∫èÈõÜ‚ÄúSystem.Threading.Tasks.Dataflow, Version=4.5.24.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a‚ÄùÊàñÂÆÉÁöÑÊüê‰∏Ä‰∏™‰æùËµñÈ°π„ÄÇÁ≥ªÁªüÊâæ‰∏çÂà∞ÊåáÂÆöÁöÑÊñá‰ª∂„ÄÇ. Ignored.","date_time":"2016-05-11T02:32:20.6020882Z","message_severity":"warning"}
+{"message":"No metadata is generated for .","date_time":"2016-05-11T02:32:20.6100886Z","message_severity":"warning"}
+{"message":"Resource default is found in embedded resources.","date_time":"2016-05-11T02:32:20.6380902Z","message_severity":"verbose"}
+{"message":"Resource default is found in embedded resources.","date_time":"2016-05-11T02:32:20.6460907Z","message_severity":"verbose"}
+{"message":"Loading plug-in...","source":"Build Document","date_time":"2016-05-11T02:32:20.652091Z","message_severity":"verbose"}
+{"message":"5 plug-in(s) loaded.","source":"Build Document","date_time":"2016-05-11T02:32:20.704094Z","message_severity":"info"}
+{"message":"\tRestApiDocumentProcessor with build steps (BuildRestApiDocument, ApplyOverrideDocumentForRestApi)","source":"Build Document","date_time":"2016-05-11T02:32:20.7050941Z","message_severity":"verbose"}
+{"message":"\tResourceDocumentProcessor with build steps (BuildResourceDocument)","source":"Build Document","date_time":"2016-05-11T02:32:20.7060941Z","message_severity":"verbose"}
+{"message":"\tTocDocumentProcessor with build steps (BuildTocDocument)","source":"Build Document","date_time":"2016-05-11T02:32:20.7060941Z","message_severity":"verbose"}
+{"message":"\tConceptualDocumentProcessor with build steps (BuildConceptualDocument, CountWord)","source":"Build Document","date_time":"2016-05-11T02:32:20.7060941Z","message_severity":"verbose"}
+{"message":"\tManagedReferenceDocumentProcessor with build steps (BuildManagedReferenceDocument, ApplyOverrideDocument, FillReferenceInformation)","source":"Build Document","date_time":"2016-05-11T02:32:20.7070942Z","message_severity":"verbose"}
+{"message":"No files are found with glob pattern **/*.yml, excluding <none>, under directory \"C:\\Users\\Administrator\\Source\\Repos\\Zeje.Lib_\\Zeje.Utils\\obj\\\"","date_time":"2016-05-11T02:32:20.7160947Z","message_severity":"info"}
+{"message":"No files are found with glob pattern **/images/**, excluding <none>, under directory \"C:\\Users\\Administrator\\Source\\Repos\\Zeje.Lib_\\Zeje.Utils\"","date_time":"2016-05-11T02:32:20.7350958Z","message_severity":"info"}
+{"message":"Start building document...","source":"Build Document","date_time":"2016-05-11T02:32:20.7520968Z","message_severity":"verbose"}
+{"message":"Resource default is found in embedded resources.","source":"Build Document","date_time":"2016-05-11T02:32:20.7530968Z","message_severity":"verbose"}
+{"message":"Resource default is found in embedded resources.","source":"Build Document","date_time":"2016-05-11T02:32:20.7540969Z","message_severity":"verbose"}
+{"message":"Resource \"styles/docfx.js\" is found from \"embedded resource docfx.Template.default.zip\"","source":"Build Document","date_time":"2016-05-11T02:32:20.7600972Z","message_severity":"verbose"}
+{"message":"Resource \"styles/docfx.vendor.js\" is found from \"embedded resource docfx.Template.default.zip\"","source":"Build Document","date_time":"2016-05-11T02:32:20.7610973Z","message_severity":"verbose"}
+{"message":"Resource \"styles/main.js\" is found from \"embedded resource docfx.Template.default.zip\"","source":"Build Document","date_time":"2016-05-11T02:32:20.774098Z","message_severity":"verbose"}
+{"message":"Resource \"conceptual.html.primary.js\" is found from \"embedded resource docfx.Template.default.zip\"","source":"Build Document","date_time":"2016-05-11T02:32:20.774098Z","message_severity":"verbose"}
+{"message":"Resource \"gulpfile.js\" is found from \"embedded resource docfx.Template.default.zip\"","source":"Build Document","date_time":"2016-05-11T02:32:20.774098Z","message_severity":"verbose"}
+{"message":"Resource \"ManagedReference.html.primary.js\" is found from \"embedded resource docfx.Template.default.zip\"","source":"Build Document","date_time":"2016-05-11T02:32:20.7750981Z","message_severity":"verbose"}
+{"message":"Resource \"RestApi.html.primary.js\" is found from \"embedded resource docfx.Template.default.zip\"","source":"Build Document","date_time":"2016-05-11T02:32:20.7750981Z","message_severity":"verbose"}
+{"message":"Resource \"toc.html.js\" is found from \"embedded resource docfx.Template.default.zip\"","source":"Build Document","date_time":"2016-05-11T02:32:20.7750981Z","message_severity":"verbose"}
+{"message":"Resource \"conceptual.html.primary.tmpl\" is found from \"embedded resource docfx.Template.default.zip\"","source":"Build Document","date_time":"2016-05-11T02:32:20.7760981Z","message_severity":"verbose"}
+{"message":"Resource \"ManagedReference.html.primary.tmpl\" is found from \"embedded resource docfx.Template.default.zip\"","source":"Build Document","date_time":"2016-05-11T02:32:20.7760981Z","message_severity":"verbose"}
+{"message":"Resource \"RestApi.html.primary.tmpl\" is found from \"embedded resource docfx.Template.default.zip\"","source":"Build Document","date_time":"2016-05-11T02:32:20.7760981Z","message_severity":"verbose"}
+{"message":"Resource \"toc.html.tmpl\" is found from \"embedded resource docfx.Template.default.zip\"","source":"Build Document","date_time":"2016-05-11T02:32:20.7760981Z","message_severity":"verbose"}
+{"message":"Plug-in TocDocumentProcessor: Loading...","source":"Build Document","file":"toc.yml","date_time":"2016-05-11T02:32:22.8862188Z","message_severity":"verbose"}
+{"message":"Plug-in TocDocumentProcessor: Loading document...","source":"Build Document","date_time":"2016-05-11T02:32:22.9802242Z","message_severity":"verbose"}
+{"message":"Building 1 file(s) in TocDocumentProcessor(BuildTocDocument)...","source":"Build Document","date_time":"2016-05-11T02:32:22.9812243Z","message_severity":"info"}
+{"message":"Plug-in TocDocumentProcessor: Preprocessing...","source":"Build Document","date_time":"2016-05-11T02:32:22.9812243Z","message_severity":"verbose"}
+{"message":"Plug-in TocDocumentProcessor, build step BuildTocDocument: Preprocessing...","source":"Build Document","date_time":"2016-05-11T02:32:22.9852245Z","message_severity":"verbose"}
+{"message":"Plug-in TocDocumentProcessor: Building...","source":"Build Document","date_time":"2016-05-11T02:32:22.9852245Z","message_severity":"verbose"}
+{"message":"Plug-in TocDocumentProcessor: Building...","source":"Build Document","file":"Zeje.Utils/toc.yml","date_time":"2016-05-11T02:32:22.9882247Z","message_severity":"verbose"}
+{"message":"Plug-in TocDocumentProcessor, build step BuildTocDocument: Building...","source":"Build Document","file":"Zeje.Utils/toc.yml","date_time":"2016-05-11T02:32:22.9892247Z","message_severity":"verbose"}
+{"message":"Unable to find either toc.yml or toc.md inside obj/api/. Make sure the file is included in config file docfx.json!","source":"Build Document","file":"Zeje.Utils/toc.yml","date_time":"2016-05-11T02:32:23.0102259Z","message_severity":"error"}
+{"message":"Disposing processor RestApiDocumentProcessor ...","date_time":"2016-05-11T02:32:23.0142261Z","message_severity":"verbose"}
+{"message":"Disposing build step ApplyOverrideDocumentForRestApi ...","date_time":"2016-05-11T02:32:23.0152262Z","message_severity":"verbose"}
+{"message":"Disposing build step BuildRestApiDocument ...","date_time":"2016-05-11T02:32:23.0152262Z","message_severity":"verbose"}
+{"message":"Disposing processor ResourceDocumentProcessor ...","date_time":"2016-05-11T02:32:23.0152262Z","message_severity":"verbose"}
+{"message":"Disposing build step BuildResourceDocument ...","date_time":"2016-05-11T02:32:23.0152262Z","message_severity":"verbose"}
+{"message":"Disposing processor TocDocumentProcessor ...","date_time":"2016-05-11T02:32:23.0152262Z","message_severity":"verbose"}
+{"message":"Disposing build step BuildTocDocument ...","date_time":"2016-05-11T02:32:23.0162263Z","message_severity":"verbose"}
+{"message":"Disposing processor ConceptualDocumentProcessor ...","date_time":"2016-05-11T02:32:23.0162263Z","message_severity":"verbose"}
+{"message":"Disposing build step BuildConceptualDocument ...","date_time":"2016-05-11T02:32:23.0162263Z","message_severity":"verbose"}
+{"message":"Disposing build step CountWord ...","date_time":"2016-05-11T02:32:23.0162263Z","message_severity":"verbose"}
+{"message":"Disposing processor ManagedReferenceDocumentProcessor ...","date_time":"2016-05-11T02:32:23.0162263Z","message_severity":"verbose"}
+{"message":"Disposing build step ApplyOverrideDocument ...","date_time":"2016-05-11T02:32:23.0162263Z","message_severity":"verbose"}
+{"message":"Disposing build step BuildManagedReferenceDocument ...","date_time":"2016-05-11T02:32:23.0172263Z","message_severity":"verbose"}
+{"message":"Disposing build step FillReferenceInformation ...","date_time":"2016-05-11T02:32:23.0172263Z","message_severity":"verbose"}
+{"message":"Unable to find either toc.yml or toc.md inside obj/api/. Make sure the file is included in config file docfx.json!","date_time":"2016-05-11T02:32:23.0172263Z","message_severity":"error"}
