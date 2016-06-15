@@ -27,7 +27,8 @@ namespace Zeje.Utils
             //    json.WriteObject(stream, obj);
             //    string szJson = Encoding.UTF8.GetString(stream.ToArray()); return szJson;
             //}
-            return Newtonsoft.Json.JsonConvert.SerializeObject(obj);
+            return fastJSON.JSON.ToJSON(obj);
+            //return Newtonsoft.Json.JsonConvert.SerializeObject(obj);
         }
         /// <summary>获取Json的Model
         /// </summary>
@@ -42,7 +43,8 @@ namespace Zeje.Utils
             //    DataContractJsonSerializer serializer = new DataContractJsonSerializer(obj.GetType());
             //    return (T)serializer.ReadObject(ms);
             //}
-            return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(strJson);
+            return fastJSON.JSON.ToObject<T>(strJson);
+            //return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(strJson);
         }
     }
 }
