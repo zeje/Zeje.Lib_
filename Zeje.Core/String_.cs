@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Zeje
 {
@@ -14,7 +15,7 @@ namespace Zeje
         /// </summary>
         /// <param name="str"></param>
         /// <returns></returns>
-        public static string ToBRString_(string str)
+        public static string ToBRString_(this string str)
         {
             return str == null ? "" : str.Replace("\r\n", "<br />").Replace("\n", "<br />");
         }
@@ -39,6 +40,15 @@ namespace Zeje
                 return str;
             }
             return str.Substring(0, intPositon) + replace + str.Substring(intPositon + search.Length);
+        }
+
+        /// <summary>是否为ip
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+        public static bool IsIP_(this string str)
+        {
+            return Regex.IsMatch(str, @"^((2[0-4]\d|25[0-5]|[01]?\d\d?)\.){3}(2[0-4]\d|25[0-5]|[01]?\d\d?)$");
         }
     }
 }

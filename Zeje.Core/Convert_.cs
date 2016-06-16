@@ -150,7 +150,6 @@ namespace Zeje.Core
                 return p_Str.Split(chrSplit).Select(it => Convert.ToInt64(it));
             }
         }
-
         #endregion
     }
 }

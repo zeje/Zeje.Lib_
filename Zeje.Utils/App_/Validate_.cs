@@ -84,9 +84,6 @@ namespace Zeje.Utils
         }
 
         #endregion
-
-        
-
         #region 用户输入验证
         private static Regex RegNumber = new Regex("^[0-9]+$");
         private static Regex RegNumberSign = new Regex("^[+-]?[0-9]+$");
@@ -94,6 +91,7 @@ namespace Zeje.Utils
         private static Regex RegDecimalSign = new Regex("^[+-]?[0-9]+[.]?[0-9]+$"); //等价于^[+-]?\d+[.]?\d+$
         private static Regex RegEmail = new Regex(@"\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*");
         private static Regex RegCHZN = new Regex("[\u4e00-\u9fa5]");
+        private static Regex RegMobile = new Regex(@"^1[3|4|5|7|8][0-9]\d{4,8}$");
         /// <summary>是否数字字符串
         /// </summary>
         /// <param name="inputData">输入字符串</param>
@@ -169,7 +167,7 @@ namespace Zeje.Utils
         /// <returns></returns>
         public static bool IsMobile(string source)
         {
-            return Regex.IsMatch(source, @"^((13[0-9])|(15[^4,\D])|(18[0,5-9]))\d{8}$", RegexOptions.IgnoreCase);
+            return RegMobile.IsMatch(source);
         }
         /// <summary>是不是中国电话，格式010-85849685
         /// </summary>
@@ -271,6 +269,15 @@ namespace Zeje.Utils
             return Regex.IsMatch(source, @"^\d{6}$", RegexOptions.IgnoreCase);
         }
         #endregion
-
+        #region 服务数据验证
+        /// <summary>是否为ip
+        /// </summary>
+        /// <param name="inputData"></param>
+        /// <returns></returns>
+        public static bool IsIP(string inputData)
+        {
+            return inputData.IsIP_();
+        }
+        #endregion
     }
 }
